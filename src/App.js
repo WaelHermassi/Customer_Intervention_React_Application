@@ -14,7 +14,6 @@ function App() {
   return (
     <div className="wrapper">
       <BrowserRouter>
-        {/* <Link to="/">Home</Link> */}
         <Routes>
            <Route exact path='/' element={<Home />} />
         </Routes>
